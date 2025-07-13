@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Profil Biodata</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Section 1: Menu */
+        .menu {
+            background-color: #553277;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .menu a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        /* Section 2: Judul dan Gambar */
+        .judul-gambar {
+            padding: 30px;
+            background-color: #efdfff;
+        }
+
+        .judul-gambar table {
+            width: 100%;
+        }
+
+        .judul {
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .gambar-profil {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        /* Section 3 & 4 Table Layout */
+        .biodata, .portofolio {
+            padding: 30px;
+        }
+
+        table.data {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        table.data td {
+            border: 1px solid #ccc;
+            padding: 12px;
+        }
+
+        table.data td.label {
+            background-color: #efdfff;
+            font-weight: bold;
+            width: 30%;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Section 1: Menu -->
+    <div class="menu">
+        <a href="#">Beranda</a>
+        <a href="#">Tentang</a>
+        <a href="#">Portofolio</a>
+        <a href="#">Kontak</a>
+    </div>
+
+    <!-- Section 2: Judul di kiri, gambar di kanan -->
+    <div class="judul-gambar">
+        <table>
+            <tr>
+                <td class="judul">
+                    <h1>Profil Saya</h1>
+                    <p>Selamat datang di halaman biodata pribadi saya.</p>
+                </td>
+                <td align="right">
+                    <img src="https://via.placeholder.com/150" alt="Foto Profil" class="gambar-profil">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Section 3: Biodata -->
+    <div class="biodata">
+        <h2>Biodata</h2>
+        <table class="data">
+            <tr>
+                <td class="label">Nama</td>
+                <td>Luthfia Zahra Nabila</td>
+            </tr>
+            <tr>
+                <td class="label">Jenis Kelamin</td>
+                <td>Perempuan</td>
+            </tr>
+            <tr>
+                <td class="label">Email</td>
+                <td>luthfia.zahra.nbl@gmail.com</td>
+            </tr>
+            <tr>
+                <td class="label">Telepon</td>
+                <td>0857-1846-9496</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Section 4: Portofolio -->
+    <div class="portofolio">
+        <h2>Portofolio</h2>
+        <table class="data">
+            <tr>
+                <td class="label">Proyek 1</td>
+                <td>Contact Info Website (Linktree)</td>
+            </tr>
+            <tr>
+                <td class="label">Proyek 2</td>
+                <td>Website Portofolio Pribadi (carrd)</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
